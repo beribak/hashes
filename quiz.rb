@@ -86,8 +86,8 @@ new_array = students.map do |array|
     name =  array[0]
     age = array[1]
 
-    hash = {name: name, age: age}
-
+    # hash = {name: name, age: age}
+    hash = {"name" => name, "age" => age}
 end
 
 p new_array
